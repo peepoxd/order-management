@@ -6,4 +6,4 @@
 
 ## Tech Stack
 - Java 21
-- Spring Boot 4.0.0
+- Spring Boot 3.3.0

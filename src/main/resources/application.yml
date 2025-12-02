@@ -2,7 +2,7 @@
 spring:
   application:
     name: order-management-system
-  
+
   # Database Configuration
   datasource:
     url: jdbc:postgresql://localhost:5433/postgres
@@ -13,17 +13,17 @@ spring:
       maximum-pool-size: 10
       minimum-idle: 5
       connection-timeout: 30000
-  
+
   # JPA Configuration
   jpa:
     hibernate:
-      ddl-auto: update  # Change to 'validate' in production
+      ddl-auto: update # Change to 'validate' in production
     show-sql: true
     properties:
       hibernate:
         format_sql: true
         dialect: org.hibernate.dialect.PostgreSQLDialect
-  
+
   # Redis Configuration
   data:
     redis:
@@ -35,7 +35,7 @@ spring:
           max-active: 8
           max-idle: 8
           min-idle: 0
-  
+
   # RabbitMQ Configuration
   rabbitmq:
     host: localhost
