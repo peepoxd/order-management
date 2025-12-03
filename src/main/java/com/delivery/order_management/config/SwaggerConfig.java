@@ -15,7 +15,7 @@ public class SwaggerConfig {
         return new OpenAPI()
                 .info(new Info()
                         .title("Order Management System API")
-                        .description("Backend API for LINE MAN Wongnai Demo")
+                        .description("Backend API for Delivery Management Demo")
                         .version("1.0.0")
                         .contact(new Contact()
                                 .name("Your Name")
